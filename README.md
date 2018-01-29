@@ -32,6 +32,9 @@ The user will receive a Javascript confirmation pop-up if:
 1. The message was sent successfully
 2. The message failed to be sent
 
+# Before you begin #
+It is important to update the "user.properties" file with the Trumpia username and API key. Access the API key by logging into your account and going to Account -> API Settings.
+
 # Understanding Status Codes #
 Descriptions of the different status code(s) can be found within the [Direct SMS status code documentation](http://trumpia.com/api/docs/rest/status-code/direct-sms.php#put). Common status codes for failed messages:
 * **MRME1054:** Too many characters (exceeded 160 characters)
